@@ -3997,3 +3997,11 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+#headshot {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	align-self: center;
+	margin-bottom: 1rem;
+}
