@@ -7,6 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Original Styles */
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2487,7 +2489,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #21b2a6;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2497,7 +2499,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #21b2a6!important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2505,7 +2507,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #eb341c !important;
+				background-color: #21b2a6!important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3757,6 +3759,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		flex-direction: column;
 		max-width: 45em;
 	}
 
@@ -3998,10 +4001,18 @@ input, select, textarea {
 		background-color: #1d242a;
 	}
 
+
+/* My Styles */
+
 #headshot {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
 	align-self: center;
+	margin-bottom: 1rem;
+	box-shadow: 0px 0px 20px #020200;
+}
+
+#contact {
 	margin-bottom: 1rem;
 }
