@@ -4036,6 +4036,10 @@ input, select, textarea {
 	gap: 1rem;
 }
 
+/* About */
+#about {
+	margin-bottom: 0;
+}
 
 /* Contact */
 .contact-entry {
