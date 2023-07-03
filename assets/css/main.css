@@ -4022,6 +4022,20 @@ input, select, textarea {
 	width: 9rem;
 }
 
+/* Skills */
+.skill-icon {
+	width: 6rem;
+}
+
+.skills {
+	margin-top: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
 
 /* Contact */
 .contact-entry {
