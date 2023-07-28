@@ -2492,7 +2492,6 @@ input, select, textarea {
 			background-color: #21b2a6;
 			box-shadow: none !important;
 			color: #ffffff !important;
-			width: 11rem;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2536,6 +2535,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 /* Features */
 
@@ -4018,8 +4018,9 @@ input, select, textarea {
 .project-btn-ul {
 	margin-bottom: 0.5rem;
 }
+
 .project-btn {
-	width: 9rem;
+	width: 180px;
 }
 
 /* Skills */
